@@ -1,3 +1,20 @@
 .title {
   margin: 0;
 }
+.title--section {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+.title--block {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+}
+.title--blue {
+  color: #316099;
+}

@@ -7,8 +7,11 @@
 @import './blocks/container.css';
 @import './blocks/btn.css';
 @import './blocks/title.css';
+@import './blocks/box.css';
+@import './blocks/card.css';
 @import './blocks/page.css';
 @import './blocks/logo.css';
 @import './blocks/menu.css';
 @import './blocks/header.css';
 @import './blocks/intro.css';
+@import './blocks/works.css';
