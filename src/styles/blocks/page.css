@@ -1,0 +1,9 @@
+.page__body {
+  width: 100%;
+  min-width: 360px;
+  font-family: 'Gilroy', serif;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: rgba(31,63,104, 0.6);
+}

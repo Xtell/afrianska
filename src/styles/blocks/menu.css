@@ -1,0 +1,11 @@
+.menu__btn {
+  display: block;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background-image: url("../../images/burger.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+}

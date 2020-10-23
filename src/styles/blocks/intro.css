@@ -1,0 +1,38 @@
+.intro {
+  position: relative;
+  display: flex;
+  min-height: 680px;
+  padding-top: 90px;
+  padding-bottom: 190px;
+}
+
+.intro::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 24px;
+  width: 688px;
+  height: 624px;
+  background-image: url('../../images/intro-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.intro__inner {
+  width: 520px;
+}
+
+.intro__title {
+  margin-bottom: 42px;
+  font-family: 'Galien', serif;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+.intro__text {
+  width: 415px;
+  margin: 0;
+  margin-bottom: 72px;
+}

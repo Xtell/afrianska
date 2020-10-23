@@ -48,6 +48,7 @@ const styles = () => {
       postcss([
         require('postcss-import'),
         require('postcss-url')({ url: 'rebase' }),
+        require('postcss-color-function'),
         require('autoprefixer'),
         require('postcss-csso')
       ]),
