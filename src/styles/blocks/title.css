@@ -8,6 +8,11 @@
   letter-spacing: 0.05em;
   color: #ffffff;
 }
+@media (max-width: 420px) {
+  .title--section {
+    font-size: 30px;
+  }
+}
 .title--block {
   font-weight: 600;
   font-size: 20px;

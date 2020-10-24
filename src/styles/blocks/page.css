@@ -1,3 +1,6 @@
+.page {
+  min-width: 360px;
+}
 .page__body {
   width: 100%;
   min-width: 360px;
