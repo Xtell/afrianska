@@ -20,22 +20,20 @@
 .btn--link:hover {
   color: color(#5a98d0 tint(20%));
 }
-.btn--link:hover .btn__icon {
-  fill: color(#5a98d0 tint(20%));
-}
 .btn--link:active {
   color: color(#5a98d0 shade(20%));
-}
-.btn--link:active svg {
-  fill: color(#5a98d0 shade(20%));
 }
 .btn--with-icon {
   display: inline-flex;
   align-items: center;
 }
 .btn--with-icon span {
-  margin-right: 16px;
+  margin-right: 22px;
 }
+.btn__icon {
+  fill: currentColor;
+}
+
 .btn--full-width {
   width: 100%;
   padding: 23px;

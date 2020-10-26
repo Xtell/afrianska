@@ -53,7 +53,18 @@
   }
   .services__item:first-child {
     margin-top: 0;
-  }  
+  }
 }
-
-
+.services__card--technology::before {
+  top: -24px;
+  background-image: url('../../images/technology.png');
+  background-position: 55% 0;
+}
+.services__card--business::before {
+  background-image: url('../../images/business.png');
+  background-position: 35% 46%;
+}
+.services__card--digital::before {
+  background-image: url('../../images/digital.png');
+  background-position: 41% 53%;
+}
