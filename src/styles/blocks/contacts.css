@@ -1,3 +1,7 @@
+.contacts__wrapper {
+  padding-top: 58px;
+  padding-bottom: 96px;
+}
 .contacts__header {
   padding: 50px;
   width: 100%;
@@ -25,8 +29,7 @@
 .contacts__inner {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 58px;
-  padding-bottom: 96px;
+  margin-bottom: 96px;
 }
 @media (max-width: 1030px) {
   .contacts__inner {
@@ -46,7 +49,6 @@
 @media (max-width: 1030px) {
   .contacts__info {
     margin-right: 0;
-    margin-bottom: 60px;
     background-position: center 63px;
   }
 }
