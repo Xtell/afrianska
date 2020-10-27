@@ -49,6 +49,7 @@
 @media (max-width: 1030px) {
   .contacts__info {
     margin-right: 0;
+    margin-bottom: 60px;
     background-position: center 63px;
   }
 }
