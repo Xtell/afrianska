@@ -1,0 +1,106 @@
+.contacts__header {
+  padding: 50px;
+  width: 100%;
+  background-image: url('../../images/contact-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.contacts__title {
+  margin-bottom: 16px;
+}
+.contacts__header-text {
+  width: 780px;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+}
+@media (max-width: 910px) {
+  .contacts__header-text {
+    width: 100%;
+  }
+}
+.contacts__inner {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 58px;
+  padding-bottom: 96px;
+}
+@media (max-width: 1030px) {
+  .contacts__inner {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.contacts__info {
+  position: relative;
+  width: 380px;
+  margin-right: 20px;
+  padding-top: 312px;
+  background-image: url('../../images/contact-info.png');
+  background-repeat: no-repeat;
+  background-position: 12px 63px;
+}
+@media (max-width: 1030px) {
+  .contacts__info {
+    margin-right: 0;
+    margin-bottom: 60px;
+    background-position: center 63px;
+  }
+}
+@media (max-width: 476px) {
+  .contacts__info {
+    width: 100%;
+  }
+}
+.contacts__info-block:not(:last-child) {
+  margin-bottom: 40px;
+}
+.contacts__info-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.contacts__info-item {
+  margin-bottom: 16px;
+  padding-left: 40px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.contacts__info-item:last-child {
+  margin-bottom: 0;
+}
+.contacts__info-list--phone .contacts__info-item {
+  background-image: url('../../images/phone.svg');
+}
+.contacts__info-item--site {
+  background-image: url('../../images/earth.svg');
+}
+.contacts__info-item--email {
+  background-image: url('../../images/email.svg');
+}
+.contacts__name {
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.contacts__value {
+  font-weight: 300;
+  text-decoration: none;
+  color: rgba(31, 63, 104, 0.6);
+}
+.contacts__form {
+  width: 540px;
+  padding: 56px;
+}
+@media (max-width: 640px) {
+  .contacts__form {
+    width: 100%;
+  }
+}
+@media (max-width: 470px) {
+  .contacts__form {
+    padding: 56px 30px;
+  }
+}

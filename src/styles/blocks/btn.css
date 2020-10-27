@@ -1,6 +1,7 @@
 .btn {
   display: inline-block;
   vertical-align: middle;
+  font: inherit;
   background-color: transparent;
   border: none;
   text-align: center;

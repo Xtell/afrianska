@@ -7,6 +7,7 @@
 @import './blocks/container.css';
 @import './blocks/btn.css';
 @import './blocks/title.css';
+@import './blocks/form.css';
 @import './blocks/box.css';
 @import './blocks/card.css';
 @import './blocks/page.css';
@@ -16,4 +17,5 @@
 @import './blocks/intro.css';
 @import './blocks/services.css';
 @import './blocks/clients.css';
+@import './blocks/contacts.css';
 @import './blocks/footer.css';

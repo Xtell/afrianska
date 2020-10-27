@@ -1,6 +1,13 @@
 .title {
   margin: 0;
 }
+.title--inner-page {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
 .title--section {
   font-weight: 600;
   font-size: 36px;

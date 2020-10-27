@@ -9,6 +9,9 @@
   padding-left: 83px;
   padding-bottom: 0;
 }
+.header--inner-page {
+  padding-bottom: 40px;
+}
 @media (max-width: 1220px) {
   .header {
     padding-right: 20px;
