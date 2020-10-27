@@ -1,5 +1,18 @@
+.logo__link {
+  display: flex;
+  align-items: center;
+}
 .logo__img {
   display: block;
   width: 48px;
   height: 48px;
+}
+.logo__img:not(:last-child) {
+  margin-right: 16px;
+}
+.logo__text {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 46px;
+  color: #ffffff;
 }
