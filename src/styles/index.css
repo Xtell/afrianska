@@ -5,6 +5,8 @@
 
 /* Blocks */
 @import './blocks/container.css';
+@import './blocks/modal.css';
+@import './blocks/overlay.css';
 @import './blocks/btn.css';
 @import './blocks/title.css';
 @import './blocks/form.css';

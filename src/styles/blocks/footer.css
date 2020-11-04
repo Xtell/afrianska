@@ -81,7 +81,7 @@
 }
 @media (max-width: 1100px) {
   .footer__text {
-    width:
+    width: ;
   }
 }
 .footer__bottom {
@@ -143,13 +143,13 @@
   color: #ffffff;
 }
 .footer__item--address::before {
-  content: "A.";
+  content: 'A.';
 }
 .footer__item--phone::before {
-  content: "T."
+  content: 'T.';
 }
 .footer__item--email::before {
-  content: "E."
+  content: 'E.';
 }
 .footer__list-link {
   color: #ffffff;

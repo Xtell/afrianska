@@ -20,6 +20,9 @@
   line-height: 30px;
   color: rgba(31, 63, 104, 0.8);
 }
+.form__group--has-error .form__label {
+  color: red;
+}
 .form__input {
   width: 100%;
   padding: 20px 40px;
@@ -28,6 +31,7 @@
   border: 1px solid #356ead;
   border-radius: 10px;
 }
+
 .form__input--textarea {
   height: 144px;
   resize: none;
@@ -35,7 +39,17 @@
 .form__input::placeholder {
   color: rgba(31, 63, 104, 0.2);
 }
+.form__group--has-error .form__input {
+  border: 1px solid red;
+}
+.form__group--has-error .form__input::placeholder {
+  color: red;
+}
 .form__submit {
   text-transform: uppercase;
   font-weight: 600;
+}
+.form__error-message {
+  color: red;
+  font-size: 12px;
 }

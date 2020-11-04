@@ -9,13 +9,14 @@
   <title>Afrianska</title>
   <link rel="stylesheet" href="styles/index.min.css">
 </head>
+
 <body class="page__body">
   <svg width="0" height="0" style="display:none">
     <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="icon-arrow">
       <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z"></path>
     </symbol>
   </svg>
-  
+
   <header class="header">
     <div class="header__logo logo">
       <a class="logo__link">
@@ -146,7 +147,8 @@
             magna aliqua. Ut enim ad minim veniam.
           </p>
         </div>
-        <a href="" class="footer__top-link btn btn--primary btn--large">Let’s Talk</a>
+        <a href="#modal" class="footer__top-link btn btn--primary btn--large" data-modal="#modal--contacts-us">Let’s
+          Talk </a>
       </div>
       <div class="footer__bottom">
         <div class="footer__columns">
@@ -195,6 +197,42 @@
       </div>
     </div>
   </footer>
+  <div class="modal modal--contact-us" id="modal--contacts-us" aria-hidden="true">
+    <div class="modal__wrapper">
+      <div class="modal__window box" role="dialog" aria-modal="true">
+        <button class="modal__close btn" type="button" arua-label="close modal"></button>
+        <form action="https://jsonplaceholder.typicode.com/posts" method="post" class="form" id="modal-call-form" novalidate>
+          <fieldset class="form__fieldset">
+            <legend class="form__legend title title--block">SEND US MESSAGE</legend>
+            <label class="form__group">
+              <span class="form__label">Full Name</span>
+              <input class="form__input" name="name" type="text" placeholder="Your Name">
+            </label>
+            <label class="form__group">
+              <span class="form__label">Email</span>
+              <input class="form__input" name="email" type="email" placeholder="Your Email">
+            </label>
+            <label class="form__group">
+              <span class="form__label">Message</span>
+              <textarea class="form__input form__input--textarea" name="message" placeholder="Your Message"></textarea>
+            </label>
+          </fieldset>
+          <button class="form__submit btn btn--primary btn--full-width">submit</button>
+          <a class="btn btn--primary" data-modal="#modal--success">Sfsdfsf</a>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="modal modal--success" id="modal--success" aria-hidden="true">
+    <div class="modal__wrapper">
+      <div class="modal__window box" role="dialog" aria-modal="true">
+        <button class="modal__close btn" type="button" arua-label="close modal"></button>
+        <h2>Thanks for appeal</h2>
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <script src="scripts/index.min.js"></script>
 </body>
 
 </html>
