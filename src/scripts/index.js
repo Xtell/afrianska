@@ -71,9 +71,10 @@ class Modal {
   }
   openSuccessModal() {
     this.modal.classList.remove('modal--active');
-    this.modal.setAttribute('aria-hidden', false);
+    this.modal.setAttribute('aria-hidden', true);
     this.modal = document.querySelector('.modal--success');
     this.modal.classList.add('modal--active');
+    this.modal.setAttribute('aria-hidden', false);
     this.focusInit();
   }
   closeModal() {
