@@ -66,16 +66,19 @@ class Modal {
   openModal() {
     this.openOverlay();
     this.modal.classList.add('modal--active');
+    this.modal.setAttribute('aria-hidden', false);
     this.bodyScrollLock(this.scrollPosition);
   }
   openSuccessModal() {
     this.modal.classList.remove('modal--active');
+    this.modal.setAttribute('aria-hidden', false);
     this.modal = document.querySelector('.modal--success');
     this.modal.classList.add('modal--active');
     this.focusInit();
   }
   closeModal() {
     this.modal.classList.remove('modal--active');
+    this.modal.setAttribute('aria-hidden', true);
     this.modal = null;
     this.closeOverlay();
     this.bodyScrollUnlock();
@@ -142,7 +145,6 @@ class FormValidation {
     else return true;
   }
 
-  /* Events handlers */
   handleBlur(e) {
     this.validate(e.target);
   }
@@ -153,7 +155,7 @@ class FormValidation {
     }
   }
 
-  /* Validation methods */
+
   validate(element) {
     switch (element.name) {
       case 'name':
